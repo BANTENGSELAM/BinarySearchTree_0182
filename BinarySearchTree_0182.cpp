@@ -8,7 +8,7 @@ class node {
     public :
     string info;
     Node* lecfChild;
-    Node* rightChild;
+    Node* rightChild; 
 
     
 };
