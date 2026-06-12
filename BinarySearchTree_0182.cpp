@@ -2,7 +2,7 @@
 using namespace std; // library
 
 //membuat classs node
-class node {
+class Node {
 
     //memberi akses modifier serta mendeklarasi variable dan object node
     public :
@@ -10,5 +10,8 @@ class node {
     Node* lecfChild;
     Node* rightChild; 
 
-    
+    //membuat constructor untuk class node
+    Node(string i, Node* l, Node* r){
+        
+    }
 };
