@@ -73,7 +73,28 @@ class BinaryTree {
                     currentNode = currentNode->leftChild;
                 else
                     currentNode = currentNode->rightChild;
-                    
+
         }
     } 
+
+    // membuat dan mendefinisikan prosedur inorder
+        void inorder(Node* ptr)
+        {
+            if (ROOT == nullptr)
+            {
+                if (ROOT == nullptr){
+                    cout << "Tree is empty" << endl;
+                    return;
+                }
+                if (ptr != NULL)
+                {
+                    inorder(ptr->leftChild);
+                    cout << ptr->info << " ";
+                    inorder(ptr->rightChild);
+                }
+            }
+        }
+
+        
+
 };
